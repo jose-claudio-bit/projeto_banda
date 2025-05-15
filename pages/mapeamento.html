@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapeamento</title>
-</head>
-<body>
-    <h1>Mapeamento de Imagens</h1>
-<img src="../img/formas geometricas.png" alt="" usemap="#mapa">
-<map name="mapa">
-    <area shape="" coords="" href="" alt="">
-</map>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mapeamento</title>
+        <link rel="stylesheet" href="../css/estilo.css">
+    </head>
+    <body>
+        <h1 class="fundo_vermelho centralizado">H1 fora do div</h1>
+        <p>Paragrafo fora do div</p>
+        <div id="cassio">
+            <h1>Dentro do div</h1>
+            <h2>H2 dentro do div</h2>
+            <p>Paragrafo 1 <span>  </span> dentro do div</p>
+            <p class="fundo_vermelho">paragrafo 2 dentro do div</p>
+        </div>
+       
+        <img src="../img/formas geometricas.png" alt usemap="#geraldo">
+        <map name="geraldo">
+            <area shape="rect" coords="80,94,125,135"
+                href="https://www.globo.com/" alt>
+            <area shape="circle" coords="46,117,21"
+                href="https://www.globo.com/" alt>
+            <area shape="poly" coords="248,96,272,137,226,135"
+                href="https://www.globo.com/" alt>
+        </map>
 
-</body>
+    </body>
 </html>

@@ -23,3 +23,20 @@ tr:hover {
 table{
     width: 50%;
 }
+p {
+  background-color: aqua;
+}
+#cassio{
+  color:rgb(233, 255, 30)
+}
+#cassio{
+background-color: darkgreen;
+}
+.fundo_vermelho{
+  background-color: red;
+}
+.centralizado{
+  text-align: center;
+}
+
+ 
